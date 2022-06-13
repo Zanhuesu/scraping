@@ -155,7 +155,7 @@ def scrapCKDProduct():
     ckd_db = mysql.connector.connect(
       host="localhost",
       user="root",
-      password="123qweasd",
+      password="",
       database="mtg_db"
     )
     ckd_cursor = ckd_db.cursor(buffered=True)
@@ -241,7 +241,7 @@ def load_CKD_Price_Json(json_filename):
     mtg_db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="123qweasd",
+        password="",
         database="mtg_db"
     )
     ckd_cursor = mtg_db.cursor(buffered=True)
@@ -301,7 +301,7 @@ def scrapSCGProduct():
     scg_db = mysql.connector.connect(
       host="localhost",
       user="root",
-      password="123qweasd",
+      password="",
       database="mtg_db"
     )
     scg_cursor = scg_db.cursor(buffered=True)
