@@ -1,3 +1,6 @@
+//file name connect.js
+//author: Supernova
+//date: 16/6/2022
 var sql = require("mysql");
 
    // Create a connection to the database

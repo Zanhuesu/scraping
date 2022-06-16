@@ -1,3 +1,6 @@
+//fileName: index.js
+//author: Supernova
+//date:16/6/2022
 const table = document.getElementById('userstbl');
 const addname = document.getElementById('addname');
 const addcountry = document.getElementById('addcountry');

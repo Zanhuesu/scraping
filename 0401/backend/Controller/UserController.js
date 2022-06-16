@@ -1,7 +1,8 @@
+//file name: UserController.js
+//author: Supernova
+//date:16/6/2022
 var express = require('express');
 var router = express.Router();
-var sql = require("mysql");
-var app = express();
 var conn = require("../connection/connect")
 
 function getEdition(edition){
